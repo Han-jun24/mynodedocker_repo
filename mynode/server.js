@@ -3,6 +3,9 @@ const app = express();
 
 app.get('/',(req,res)=>{
     console.log("HI~")
+    res.end();
+    
 })
 
-app.listen(3001)
+app.listen(3001,"0.0.0.0")
+// http://localhost:3001
